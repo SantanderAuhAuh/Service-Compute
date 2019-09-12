@@ -68,9 +68,11 @@ AreaOfCircle`和`GetPerimeterOfCircle`函数报错！！其中cases是一个floa
 在VScode命令行中使用`cd`到达包所在的文件夹后，使用`go test`命令，进行测试。
 观察测试结果。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190911220559659.PNG)
+
 结果显示通过测试。
 
 尝试安装包并从外部调用：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190912083017107.PNG)
 发现使用noFunction的文件名安装后无法调用，将文件名改为circle。
 重新达到相应文件夹内运行`go install ./circle`，结果如下图所示，表明包安装成功：
